@@ -2,8 +2,10 @@
 <!-- Website - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>ZAKI KHAN/Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -16,7 +18,7 @@
     </div>
     <!-- navgaition menu -->
     <nav>
-      <div class="navbar">
+      <div class="navbar" data-aos="slide-up">
         <div class="logo"><a href="#">Portfolio.</a></div>
         <ul class="menu">
           <li><a href="#home">Home</a></li>
@@ -42,10 +44,10 @@
     <section class="home" id="home">
       <div class="home-content">
         <div class="text">
-          <div class="text-one">Hello,</div>
-          <div class="text-two">I'am <br> ZAKI UDDIN   KHAN</div>
-          <div class="text-three">FRONT-END DEVELOPER</div>
-          <div class="text-four">From INDIA</div>
+          <div class="text-one" data-aos="slide-right">Hello,</div>
+          <div class="text-two"  data-aos="slide-left">I'am <br> ZAKI UDDIN   KHAN</div>
+          <div class="text-three"  data-aos="slide-up">FRONT-END DEVELOPER</div>
+          <div class="text-four">From &nbsp; <div class="f1">IN</div> <div class="f2">D</div> <div class="f3">IA</div>
         </div>
         
       </div>
@@ -54,22 +56,22 @@
     <!-- About Section Start -->
     <section class="about" id="about">
       <div class="content">
-        <div class="title"><span>About Me</span></div>
+        <div class="title"  data-aos="slide-down"><span>About Me</span></div>
         <div class="about-details">
           <div class="left">
-            <img src="./Images/zaki.jpeg" alt="my profile picture" />
+            <img src="images/zaki.jpeg"  data-aos="slide-right" alt="" />
           </div>
-          <div class="right">
+          <div class="right"  data-aos="slide-left">
             <div class="topic">Rsesume/project portfolio Website</div>
-            <p>
+             <p>
               I am learning web dev since my school days, i have made many projects for my clients, 
-              I am currently doing frontend and learning full stack. 
+              i am currently doing FRONT-END and learning ful stack. 
               Currently working as a freelancer in HTML5,CSS3,JavaScript.
               
-            </p>
-            <div class="button">
+             </p>
+            <div class="button"  data-aos="zoom-in">
               <button>
-                <a href=https://drive.google.com/file/d/1CPZxxXcC4raNd8Ga1Hrdx580c2RA4ovK/view?usp=drive_link>Download cv</a>
+                <a href=https://drive.google.com/file/d/1CPZxxXcC4raNd8Ga1Hrdx580c2RA4ovK/view?usp=drive_link>Downoad cv</a>
               </button>
             </div>
           </div>
@@ -81,12 +83,12 @@
     <!-- Section Tag and Other Div will same where we need to put same CSS -->
     <section class="skills" id="skills">
       <div class="content">
-        <div class="title"><span>My Skills</span></div>
+        <div class="title" data-aos="slide-up" ><span>My Skills</span></div>
         <div class="skills-details">
           <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
+            <div class="topic"  data-aos="flip-up">Skills Reflects Our Knowledge</div>
             <p></p>
-            <div class="experience">
+            <div class="experience"  data-aos="flip-up">
               <div class="num">3</div>
               <div class="exp">
                 Years Of <br />
@@ -94,20 +96,20 @@
               </div>
             </div>
           </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
+          <div class="boxes"  >
+            <div class="box" data-aos="zoom-in">
+              <div class="topic" >HTML</div>
               <div class="per">90%</div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
               <div class="topic">CSS</div>
               <div class="per">85%</div>
             </div>
-            <div class="box">
-              <div class="topic">JavaScript</div>
+            <div class="box" data-aos="zoom-in">
+              <div class="topic">JavScript</div>
               <div class="per">70%</div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
               <div class="topic">BOOTSTRAP/TAILWIND</div>
               <div class="per">75%</div>
             </div>
@@ -119,44 +121,44 @@
     <!-- My Services Section Start -->
     <section class="services" id="services">
       <div class="content">
-        <div class="title"><span>My Services</span></div>
+        <div class="title" ><span data-aos="flip-down">My Services</span></div>
         <div class="boxes">
-          <div class="box">
+          <div class="box" data-aos="slide-up">
             <div class="icon">
               <i class="fas fa-desktop"></i>
             </div>
             <div class="topic">Web Devlopment</div>
             
           </div>
-          <div class="box">
+          <div class="box" data-aos="slide-down">
             <div class="icon">
               <i class="fas fa-paint-brush"></i>
             </div>
             <div class="topic">Graphic Design</div>
             
           </div>
-          <div class="box">
+          <div class="box" data-aos="slide-up">
             <div class="icon">
               <i class="fas fa-chart-line"></i>
             </div>
             <div class="topic">Photo editing</div>
             
           </div>
-          <div class="box">
+          <div class="box" data-aos="slide-down">
             <div class="icon">
               <i class="fab fa-android"></i>
             </div>
             <div class="topic">Icon Design</div>
             
           </div>
-          <div class="box">
+          <div class="box" data-aos="slide-up">
             <div class="icon">
               <i class="fas fa-camera-retro"></i>
             </div>
             <div class="topic">Photography</div>
             
           </div>
-          <div class="box">
+          <div class="box" data-aos="slide-down">
             <div class="icon">
               <i class="fas fa-tablet-alt"></i>
             </div>
@@ -176,5 +178,9 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
