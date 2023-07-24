@@ -24,6 +24,14 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
+
+/* for smooth scrolling of whole page */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -34,7 +42,7 @@ nav{
   font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
-  background: #57658a;
+  background: #94ADD7;
   padding: 13px 0;
 }
 nav .navbar{
@@ -68,7 +76,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #94ADD7;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -127,10 +135,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #4fc468;
 }
 .home .text-two{
-  color: #116592;
+  color:#7C73C0;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -138,13 +146,31 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #94ADD7;
 }
-.home .text-four{
+.home .text-four {
+  display: flex;
   font-size: 23px;
   margin: 5px 0;
   color: #0d3953;
+  
 }
+.home .text-four .f1{
+  
+  color: orangered;
+  
+}
+.home .text-four .f2{
+  
+  color: white;
+  
+}
+.home .text-four .f3{
+  
+  color: green;
+  
+}
+
 .home .button{
   margin: 14px 0;
 }
@@ -255,7 +281,7 @@ section .button button:hover{
 
  /* My Skills CSS */
  .skills{
-   background: #F0F8FF;
+   background: #ACFADF;
  }
  .skills .content{
    padding: 40px 0;
