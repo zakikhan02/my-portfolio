@@ -22,13 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
-}
-
-/* for smooth scrolling of whole page */
-
-html {
-  scroll-behavior: smooth;
+    background: #4s070f4;
 }
 
 
